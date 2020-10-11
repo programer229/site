@@ -1,0 +1,84 @@
+body{
+    background-color: black;  
+    font-family: "hacker";
+}
+
+@font-face{
+    font-family: "hacker";
+    src: url(../fonts/HACKED_Title.ttf);
+}
+
+form{
+    color: green;
+    max-width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title{
+    text-align: center;
+    font-size: 30px;
+}
+
+.inputEmail{
+    color: green;
+}
+
+.inputPassword{
+
+}
+
+.BtnLogin{
+    color: green;
+}
+
+.btn{
+    color: rgb(2, 83, 2);
+    background-color: grey;
+    font-family: "hacker";
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    border: none;
+}
+
+.bnt:hover{
+    border: none;
+    background-color: rgb(117, 114, 114);
+    cursor: pointer;
+}
+
+form input[type="text"],
+form input[type="password"]{
+    border: 1px solid green;
+    padding-left: 10px;
+}
+
+form input[type="submit"]{
+    border: 0px;
+    outline: 0px;
+}
+
+.escondido{
+   color: black;
+}
+
+.btnL{
+    color: black;
+    background-color: rgb(0, 128, 0);
+    cursor: pointer;
+    margin-left: 860px;
+    margin-top: 460px;
+}
+
+.btnL:hover{
+    background-color: rgb(0, 148, 0) ;
+}
+
+.dica{
+    color: green;
+    margin-left: 400px;
+    font-size: 30px;
+}
